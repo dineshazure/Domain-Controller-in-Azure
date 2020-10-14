@@ -9,7 +9,7 @@
             "value": "VM-PDC1"
         },
         "networkSecurityGroupName": {
-            "value": "VM-PDC1-nsg"
+            "value": "VM-PDC1-nsg-new"
         },
         "networkSecurityGroupRules": {
             "value": [
