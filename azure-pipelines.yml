@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'vs2017-win2016'
 
 steps:
 - task: AzureResourceManagerTemplateDeployment@3
@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'Dinesh_New'
     location: 'UK South'
     templateLocation: 'Linked artifact'
-    csmFile: 'ADPDCDeploy.json'
-    csmParametersFile: 'ADPDCCDeploy.Parameters.json'
+    csmFile: 'Domain-Controller-in-Azure/ADPDCDeploy.json'
+    csmParametersFile: 'Domain-Controller-in-Azure/ADPDCCDeploy.Parameters.json'
     deploymentMode: 'Incremental'
     deploymentName: 'Domain Controller Creation'
