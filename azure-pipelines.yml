@@ -20,6 +20,6 @@ steps:
     location: 'UK South'
     templateLocation: 'Linked artifact'
     csmFile: 'Domain-Controller-in-Azure/ADPDCDeploy.json'
-    overrideParameters: 'Domain-Controller-in-Azure/ADPDCCDeploy.Parameters.json'
+    overrideParameters: '-projectName dcdeploy -linkedtemplateuri https://raw.githubusercontent.com/dineshazure/Domain-Controller-in-Azure/main/ADPDCCDeploy.Parameters.json'
     deploymentMode: 'Incremental'
     deploymentName: 'Domain Controller Creation'
