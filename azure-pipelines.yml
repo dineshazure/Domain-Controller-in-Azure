@@ -22,4 +22,4 @@ steps:
     csmFile: 'ADPDCDeploy.json'
     overrideParameters: '-projectName dcdeploy -linkedtemplateuri https://raw.githubusercontent.com/dineshazure/Domain-Controller-in-Azure/main/ADPDCCDeploy.Parameters.json'
     deploymentMode: 'Incremental'
-    deploymentName: 'Domain Controller Creation'
+    deploymentName: 'Domain-Controller-Creation'
