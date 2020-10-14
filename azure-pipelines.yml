@@ -20,6 +20,6 @@ steps:
     location: 'UK South'
     templateLocation: 'Linked artifact'
     csmFile: 'ADPDCDeploy.json'
-    overrideParameters: 'ADPDCCDeploy.Parameters.json'
+    csmParametersFile: 'ADPDCCDeploy.Parameters.json'
     deploymentMode: 'Incremental'
     deploymentName: 'Domain-Controller-Creation'
